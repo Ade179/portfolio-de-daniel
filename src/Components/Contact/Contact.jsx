@@ -19,11 +19,11 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-form">
+    <div className="contact-form" id="Contact">
       <div className="w-left">
         <div className="awesome">
           <span>Get in touch</span>
-          <span>Contact</span>
+          <span>Contact Me</span>
           <div className="blur s-blur1" style={{ background: '#ABF1FF94' }} />
         </div>
       </div>

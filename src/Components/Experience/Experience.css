@@ -13,7 +13,7 @@
     align-items: center;
 }
 
-.circle{
+.circle {
     width: 4rem;
     height: 4rem;
     background: white;
@@ -24,22 +24,40 @@
     justify-content: center;
     font-size: 1.5rem;
     font-weight: bold;
-    margin-bottom : 3rem;
-}
+    margin-bottom: 3rem;
 
-.circle::before{
-    border-radius:100% ;
+    /* Apply dark mode styles */
+
+  }
+
+  .circle::before {
+    border-radius: 100%;
     content: '';
     background-image: linear-gradient(to bottom, #87e6fb 0%, #ffc05c 100%);
     top: -8px;
-    left:-8px;
+    left: -8px;
     bottom: -8px;
     right: -8px;
     position: absolute;
     z-index: -1;
 
-}
+    /* Apply dark mode styles */
+
+  }
+
 
 .achievement span:nth-child(3){
     color: var(--orange);
 }
+
+.bl{
+    background-image: linear-gradient(to bottom, #175170 0%, #674e02 100%);
+    background-color: var(--circle-bg-color);
+    color: var(--circle-text-color);
+}
+
+.dark-mode-circle {
+    background-color:var(--orange); /* Example background color for dark mode */
+    color: #ffffff; /* Example text color for dark mode */
+    /* Add any other relevant styles for dark mode */
+  }

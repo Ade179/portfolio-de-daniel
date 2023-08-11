@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-/* eslint-enable jsx-a11y/no-static-element-interactions */
 import React, { useContext } from 'react';
 import './Toggle.css';
 import Sun from '@iconscout/react-unicons/icons/uil-sun';

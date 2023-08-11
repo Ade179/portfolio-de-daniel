@@ -8,7 +8,7 @@ import MathMagiciain from '../../img/MathMagician.png';
 import 'swiper/css';
 
 const Portfolio = () => (
-  <div className="portfolio">
+  <div className="portfolio" id="Portfolio">
 
     <span>Recent Projects</span>
     <span>Portfolio</span>

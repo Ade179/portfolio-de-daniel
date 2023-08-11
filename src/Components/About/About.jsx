@@ -26,9 +26,15 @@ const About = () => (
         Hire me
       </button>
       <div className="a-icons">
-        <img src={Github} alt="github" />
-        <img src={LinkedIn} alt="linkedin" />
-        <img src={Instagram} alt="IG" />
+        <a href="https://github.com/Ade179">
+          <img src={Github} alt="github" />
+        </a>
+        <a href="https://www.linkedin.com/in/adejuwon-adesanya/">
+          <img src={LinkedIn} alt="linkedin" />
+        </a>
+        <a href="https://www.instagram.com/jay_iz_just_awesome/">
+          <img src={Instagram} alt="IG" />
+        </a>
       </div>
       <div className="blur" style={{ background: 'rgb 238 210 255' }} />
       <div className="blurs" />

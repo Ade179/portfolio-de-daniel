@@ -8,7 +8,7 @@ import Resume from './_Resume.pdf';
 
 function Services() {
   return (
-    <div className="services">
+    <div className="services" id="Services">
       <div className="s-left">
         <span> My Awesome </span>
         <span> services </span>
