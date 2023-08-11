@@ -2,10 +2,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import { ThemeProvider } from './Context';
 
 // Get the DOM element where the React app will be rendered
 const rootElement = document.getElementById('root');
 
 // Create a root and render the App component inside it
 const root = ReactDOM.createRoot(rootElement);
-root.render(<App />);
+root.render(
+  <ThemeProvider>
+    <App />
+  </ThemeProvider>,
+);

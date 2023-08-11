@@ -1,5 +1,6 @@
 import React from 'react';
 import './Experience.css';
+import { themeContext } from '../../Context';
 
 function Experience() {
   return (
